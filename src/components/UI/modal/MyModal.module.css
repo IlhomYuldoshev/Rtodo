@@ -1,0 +1,26 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.modalContent {
+    position: absolute;
+    width: 40vw;
+    min-height: 30vh;
+    padding: 20px;
+    top: 25vh;
+    left: 30vw;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.modal.active {
+    display: flex;
+}
